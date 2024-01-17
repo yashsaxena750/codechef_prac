@@ -10,4 +10,14 @@
 
 #include <stdio.h>
 
+#include "iostream"
+using namespace std;
+
+class LBC{
+    
+public:
+    LBC();
+    void find_int(int,int);
+};
+
 #endif /* LBCV201A_hpp */

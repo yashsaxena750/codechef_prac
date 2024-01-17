@@ -9,5 +9,15 @@
 #define LBCV202_hpp
 
 #include <stdio.h>
+#include "iostream"
+using namespace std;
+
+class anon{
+    
+public:
+    
+    anon();
+    void find_div(int,int,int);
+};
 
 #endif /* LBCV202_hpp */
