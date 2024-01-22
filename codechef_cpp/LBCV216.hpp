@@ -9,5 +9,16 @@
 #define LBCV216_hpp
 
 #include <stdio.h>
+#include "iostream"
+using namespace std;
+
+class Exam{
+    
+public:
+    
+    Exam();
+    void score(int,int,int);
+    
+};
 
 #endif /* LBCV216_hpp */

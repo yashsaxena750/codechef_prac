@@ -9,5 +9,13 @@
 #define LBCV204A_hpp
 
 #include <stdio.h>
+#include <iostream>
+using namespace std;
+
+class Mtime{
+public:
+    Mtime();
+    void find_time(int,int);
+};
 
 #endif /* LBCV204A_hpp */

@@ -9,5 +9,16 @@
 #define LBCV213_hpp
 
 #include <stdio.h>
+#include "iostream"
+using namespace std;
+
+class weight{
+    
+public:
+    
+    weight();
+    void weigh(int,int,int,int);
+    
+};
 
 #endif /* LBCV213_hpp */
