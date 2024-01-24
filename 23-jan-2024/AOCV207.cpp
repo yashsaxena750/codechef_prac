@@ -47,6 +47,17 @@ void DUPEL::find_dup(int A[], int N)
        for (int i = 0; i < uniqueSize; ++i) {
            std::cout << uniqueElements[i] << " ";
        }
+        
+    std::unordered_map<int, int> frequencyMap;
+
+        for (int i = 0; i < N; ++i) {
+            frequencyMap[A[i]]++;
+        }
+
+        for (const auto& pair : frequencyMap) {
+            std::cout <<pair.second <<" ";
+        }
+    
        std::cout << std::endl;
     
 }

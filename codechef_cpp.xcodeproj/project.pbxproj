@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A3EED8E2B5F745B005CCC0C /* AOCV207.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EED8C2B5F745B005CCC0C /* AOCV207.cpp */; };
+		0A1BA7702B60B7A1006BFB2F /* AOCV210.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BA76E2B60B7A1006BFB2F /* AOCV210.cpp */; };
+		0A1BA7732B60C2A2006BFB2F /* AOCV211.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BA7712B60C2A2006BFB2F /* AOCV211.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A1BA76E2B60B7A1006BFB2F /* AOCV210.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AOCV210.cpp; sourceTree = "<group>"; };
+		0A1BA76F2B60B7A1006BFB2F /* AOCV210.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AOCV210.hpp; sourceTree = "<group>"; };
+		0A1BA7712B60C2A2006BFB2F /* AOCV211.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AOCV211.cpp; sourceTree = "<group>"; };
+		0A1BA7722B60C2A2006BFB2F /* AOCV211.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AOCV211.hpp; sourceTree = "<group>"; };
 		0A2BD1752B5E05A000771D17 /* LBCV213.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LBCV213.cpp; sourceTree = "<group>"; };
 		0A2BD1762B5E05A000771D17 /* LBCV213.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LBCV213.hpp; sourceTree = "<group>"; };
 		0A3EED822B5F6125005CCC0C /* AOCV215.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AOCV215.cpp; sourceTree = "<group>"; };
@@ -61,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1BA76D2B60B742006BFB2F /* 24-jan-2024 */ = {
+			isa = PBXGroup;
+			children = (
+				0A1BA76E2B60B7A1006BFB2F /* AOCV210.cpp */,
+				0A1BA76F2B60B7A1006BFB2F /* AOCV210.hpp */,
+				0A1BA7712B60C2A2006BFB2F /* AOCV211.cpp */,
+				0A1BA7722B60C2A2006BFB2F /* AOCV211.hpp */,
+			);
+			path = "24-jan-2024";
+			sourceTree = "<group>";
+		};
 		0A3EED812B5F6116005CCC0C /* 23-jan-2024 */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +95,7 @@
 		0A803AF82B570743007466B6 = {
 			isa = PBXGroup;
 			children = (
+				0A1BA76D2B60B742006BFB2F /* 24-jan-2024 */,
 				0A3EED812B5F6116005CCC0C /* 23-jan-2024 */,
 				0AC244B82B5E24B6002B542D /* 22-jan-2024 */,
 				0A803B032B570743007466B6 /* codechef_cpp */,
@@ -181,7 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3EED8E2B5F745B005CCC0C /* AOCV207.cpp in Sources */,
+				0A1BA7702B60B7A1006BFB2F /* AOCV210.cpp in Sources */,
+				0A1BA7732B60C2A2006BFB2F /* AOCV211.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
