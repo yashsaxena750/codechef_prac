@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ABFC8592B69DE57009A8717 /* STCV210.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ABFC8572B69DE57009A8717 /* STCV210.cpp */; };
 		0ACCF68E2B68A22500074823 /* STCV209.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACCF68C2B68A22500074823 /* STCV209.cpp */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		0A803B012B570743007466B6 /* codechef_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codechef_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A803B0E2B570D05007466B6 /* agelimit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = agelimit.cpp; sourceTree = "<group>"; };
 		0A803B0F2B570D05007466B6 /* agelimit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = agelimit.hpp; sourceTree = "<group>"; };
+		0ABFC8572B69DE57009A8717 /* STCV210.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STCV210.cpp; sourceTree = "<group>"; };
+		0ABFC8582B69DE57009A8717 /* STCV210.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STCV210.hpp; sourceTree = "<group>"; };
 		0AC244B12B5E0D8E002B542D /* LBCV216.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LBCV216.cpp; sourceTree = "<group>"; };
 		0AC244B22B5E0D8E002B542D /* LBCV216.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LBCV216.hpp; sourceTree = "<group>"; };
 		0AC244B42B5E19D9002B542D /* LBCV208A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LBCV208A.cpp; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 		0A803AF82B570743007466B6 = {
 			isa = PBXGroup;
 			children = (
+				0ABFC8562B69DE2F009A8717 /* 31-jan-2024 */,
 				0ACCF67E2B6894B600074823 /* 30-jan-2024 */,
 				0ACCF6712B67419200074823 /* 29-jan-2024 */,
 				0A1BA76D2B60B742006BFB2F /* 24-jan-2024 */,
@@ -137,6 +141,15 @@
 				0AE0B66E2B5859C80023DCF9 /* LBCV202.hpp */,
 			);
 			path = codechef_cpp;
+			sourceTree = "<group>";
+		};
+		0ABFC8562B69DE2F009A8717 /* 31-jan-2024 */ = {
+			isa = PBXGroup;
+			children = (
+				0ABFC8572B69DE57009A8717 /* STCV210.cpp */,
+				0ABFC8582B69DE57009A8717 /* STCV210.hpp */,
+			);
+			path = "31-jan-2024";
 			sourceTree = "<group>";
 		};
 		0AC244B82B5E24B6002B542D /* 22-jan-2024 */ = {
@@ -246,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACCF68E2B68A22500074823 /* STCV209.cpp in Sources */,
+				0ABFC8592B69DE57009A8717 /* STCV210.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
