@@ -1,0 +1,12 @@
+exclude:
+    global:
+        - codechef_prac\goli\**
+        - "22-jan-2024/*"
+        - "23-jan-2024/*"
+        - "24-jan-2024/*"
+        - "29-jan-2024/*"
+        - "30-jan-2024/*"
+        - "31-jan-2024/*"
+        - cmake-build-debug/
+        - codechef_cpp/
+        - codechef_cpp.xcodeproj/
